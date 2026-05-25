@@ -1,3 +1,7 @@
-from . import *
+SERVICES = {}
 
-__all__ = ["search", "youtube", "gpt", "wiki", "habr"]
+def service(name):
+    def decorator(func):
+        SERVICES[name] = func
+        return func
+    return decorator
