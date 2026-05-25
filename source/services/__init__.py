@@ -1,3 +1,3 @@
 from . import *
 
-__all__ = ["search", "youtube", "gpt", "wiki"]
+__all__ = ["search", "youtube", "gpt", "wiki", "habr"]

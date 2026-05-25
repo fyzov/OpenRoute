@@ -13,6 +13,8 @@ def main():
             deepseek.execute(args.prompt)
         case "wiki":
             wiki.execute(args.prompt)
+        case "habr":
+            habr.execute(args.prompt)
         case _:
             print(f"Unknown command {args.command}")
 
