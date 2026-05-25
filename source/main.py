@@ -11,6 +11,8 @@ def main():
             youtube.execute(args.prompt)
         case "gpt":
             deepseek.execute(args.prompt)
+        case "wiki":
+            wiki.execute(args.prompt)
         case _:
             print(f"Unknown command {args.command}")
 
