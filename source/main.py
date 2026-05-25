@@ -1,5 +1,5 @@
 from utils import parse_args
-from services import search
+from services import *
 
 def main():
     args = parse_args()
@@ -7,6 +7,8 @@ def main():
     match args.command:
         case "search":
             search.execute(args.prompt)
+        case "youtube":
+            youtube.execute(args.prompt)
         case _:
             print(f"Unknown command {args.command}")
 
