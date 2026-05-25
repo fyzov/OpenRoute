@@ -1,5 +1,5 @@
 def main():
-    print("Hello from openroute!")
+    pass
 
 
 if __name__ == "__main__":
