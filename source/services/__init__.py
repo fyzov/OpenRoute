@@ -1,3 +1,3 @@
 from . import *
 
-__all__ = ["search", "youtube", "deepseek"]
+__all__ = ["search", "youtube", "gpt"]

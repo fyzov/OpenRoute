@@ -9,7 +9,7 @@ def main():
             search.execute(args.prompt)
         case "youtube":
             youtube.execute(args.prompt)
-        case "deepseek":
+        case "gpt":
             deepseek.execute(args.prompt)
         case _:
             print(f"Unknown command {args.command}")
