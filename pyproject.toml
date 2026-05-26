@@ -5,5 +5,5 @@ description = "OpenRoute is a simple cli for convenient interaction with popular
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "langdetect>=1.0.9",
+    "googletrans>=4.0.2",
 ]
